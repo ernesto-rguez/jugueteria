@@ -1,0 +1,110 @@
+﻿:root {
+    --header-height: 3rem;
+    --nav-width: 68px;
+    --first-color: #f10086;
+    --first-color-alt: #f582a7;
+    --white-color: #ffddee;
+}
+.row{
+    display:block;
+    text-align:right;
+    margin-top:1rem;
+    margin-bottom:1rem;
+    margin-right:5px;
+}
+.btn-primary{
+
+    background-color: var(--first-color-alt);
+}
+.btn-danger {
+    background-color: #495057;
+    color:white;
+}
+.btn{
+    border:none;
+    padding: 8px 15px;
+    margin:.5rem;
+    border-radius:5px;
+    color: var(--white-color);
+    font-size:12px;
+}
+.text-center{
+    text-align:center;
+    }
+.text-left{
+    text-align: left;
+    }
+.text-right{
+    text-align: right;
+    }
+.container{
+    max-width:1200px;
+    width:100%;
+    padding:28px;
+    margin: 0 28px;
+}
+.container{
+    width:71vw;
+    height:70vh;
+    background-color: #fff4;
+    overflow:hidden;
+}
+table{
+    width: 100%;
+    background-color: #eee;
+    border:1px solid #eee;
+}
+.table-body {
+    width: 100%;
+    max-height: calc(89% - .8rem);
+    overflow:auto
+}
+.table-body::-webkit-scrollbar{
+    width: 0.8rem;
+    height:0.8rem
+}
+.table-body::-webkit-scrollbar-thumb {
+    border-radius:.5rem;
+    background-color:var(--first-color-alt);
+}
+.table-body:hover::-webkit-scrollbar-thumb {
+    visibility: visible;
+}
+table, th, td{
+    border-collapse:collapse;
+    padding:.8rem;
+}
+
+thead th{
+    position: sticky;
+    top:0;
+    left:0;
+    background-color: var(--first-color-alt);
+    color:white;
+
+}
+tbody tr:nth-child(even) {
+    background-color: var(--white-color);
+
+}
+tbody tr:hover {
+    background-color: #f1bdd7;
+}
+
+ 
+@media only screen and (max-width:768px){
+    .table-body{
+        width:100%;
+    }
+   
+    .row{
+        text-align: center;
+        display:grid;
+    }
+}
+@media only screen and (max-width:978px) {
+   
+}
+@media only screen and (max-width:978px) {
+}
+
